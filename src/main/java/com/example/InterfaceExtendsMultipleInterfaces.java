@@ -36,6 +36,7 @@ public class Dog implements Pet {
 public class Main {
     public static void main(String[] args) {
         Dog dog = new Dog();
+
         dog.eat();    // Outputs: Dog is eating
         dog.sleep();  // Outputs: Dog is sleeping
         dog.bark();   // Outputs: Dog is barking
